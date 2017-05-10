@@ -29,7 +29,9 @@ body {
 }
 
 .navbar-default .navbar-brand {
-    color: #1c3766;
+    color: #005295;
+    font-size: 23px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
@@ -66,3 +68,6 @@ body {
 a {
  color: #005295;
 }
+
+navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #2bafa4;

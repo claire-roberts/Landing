@@ -63,13 +63,9 @@ shinyUI(
 
                                  HTML('<div class="thumbnail" id="one">
                                         <img src="" alt="">
-                                        <div class="caption">
-                                        <h3>Application 1</h3>
-                                        <p>Havana brown cornish rex bombay but bombay,
-                                      but havana brown devonshire rex and devonshire rex.
-                                      Tomcat egyptian mau. Cornish rex sphynx sphynx yet
-                                      cougar and panther. Panther siberian. Lynx munchkin
-                                      american shorthair. Norwegian forest. </p>
+                                        <div class="caption" style="color: blue;">
+                                        <h3>Some Category</h3>
+                                        <p>Brief description of category.</p>
                                         <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
                                         </div>
                                         </div>')
@@ -78,25 +74,18 @@ shinyUI(
                                  ),
                           column(4, HTML('<div class="thumbnail" id="two">
                                         <img src="" alt="">
-                                         <div class="caption">
-                                         <h3>Application 1</h3>
-                                         <p>Havana brown cornish rex bombay but bombay,
-                                         but havana brown devonshire rex and devonshire rex.
-                                         Tomcat egyptian mau. Cornish rex sphynx sphynx yet
-                                         cougar and panther. Panther siberian. Lynx munchkin
-                                         american shorthair. Norwegian forest. </p>
+                                         <div class="caption" style="color: blue;">
+                                         <h3>Some Category</h3>
+                                         <p>Brief description of category.</p>
                                          <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
                                          </div>
                                          </div>')),
                           column(4, HTML('<div class="thumbnail" id="three">
                                         <img src="" alt="">
-                                         <div class="caption">
-                                         <h3>Application 1</h3>
-                                         <p>Havana brown cornish rex bombay but bombay,
-                                         but havana brown devonshire rex and devonshire rex.
-                                         Tomcat egyptian mau. Cornish rex sphynx sphynx yet
-                                         cougar and panther. Panther siberian. Lynx munchkin
-                                         american shorthair. Norwegian forest. </p>
+                                         <div class="caption" style="color: blue;">
+                                         <h3>Some Category</h3>
+                                         <p>Brief description of category. 
+                                          Words words words.</p>
                                          <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
                                          </div>
                                          </div>'))
@@ -104,7 +93,9 @@ shinyUI(
                         ),
 
                         fluidRow(
-                          column(12, h1("Can't find what you're looking for?")
+                         
+                          column(12, h4(style="text-align: center;","Can't find what you're looking for? Click", HTML('<a href="">here</a>'), "for a list of all applications")
+                          
 
                         )))
               
