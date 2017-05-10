@@ -32,6 +32,7 @@ body {
     color: #1c3766;
 }
 
+
 .navbar-brand {
 	height: 75px;
 	margin-top: -30px;
@@ -40,4 +41,28 @@ body {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #ffffff;
     background-color: #e4f1fc;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.fa {
+    display: inline-block;
+    float: right;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: xx-large;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: -webkit-baseline-middle;
+    padding: 3px;
+}
+
+a {
+ color: #005295;
 }

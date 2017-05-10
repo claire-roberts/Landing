@@ -16,7 +16,7 @@ shinyUI(
 
   # Include a fliudPage above the navbar to incorporate a icon in the header
   # Source: http://stackoverflow.com/a/24764483
-  fluidPage(
+  fluidPage(includeHTML("navbarHTML.html"),
 
     list(tags$head(HTML('<link rel="icon", href="Rlogo.png",
                         type="image/png" />'))),
@@ -26,12 +26,9 @@ shinyUI(
         )
         
     ),
-    
-
-    navbarPage(title=div(img(src="GMFMClogoSM.png"), "Gulf of Mexico Fishery Management Council"), ##### include logo after src if desired #########
-               
-               inverse = F, # for diff color view
+          inverse = F, # for diff color view
                theme = shinytheme("cerulean"),
+          
                
                
                tabPanel(" ",#, icon = icon("calendar"),
@@ -110,5 +107,7 @@ shinyUI(
                           column(12, h1("Can't find what you're looking for?")
 
                         )))
+              
 
-))) # end of shiny
+)) # end of shiny
+
