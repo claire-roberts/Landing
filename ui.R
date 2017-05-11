@@ -37,8 +37,12 @@ shinyUI(
                         includeCSS("jumbotronCSS.css"),
                         includeCSS("style.css"),
 
-                        jumbotron(content="Welcome to the Gulf of Mexico Fishery Management Council Data Portal",header="",
-                                  button = FALSE),
+                        jumbotron(header="The Data Portal",
+                                  content= HTML("<p style='margin-bottom: 5px;'>Welcome! Click on one of the</p>
+                                  <p> options below to explore.</p>
+                                  <p style='margin-bottom: 5px;'> If you want to recieve an email when</p>
+                                  <p>we update the site, click 'sign up'.</p>"),
+                                  buttonLabel="Sign Up"),
                         # hr(),
                         # br(),
                         # br(),
@@ -63,9 +67,11 @@ shinyUI(
 
                                  HTML('<div class="thumbnail" id="one">
                                         <img src="" alt="">
-                                        <div class="caption" style="color: blue;">
-                                        <h3>Some Category</h3>
-                                        <p>Brief description of category.</p>
+                                        <div class="caption" style="color: white;">
+                                        <h3 style = "color: white;">Learning Modules</h3>
+                                        <p>These provide an indepth look at different species
+                                         managed by the Gulf Council and includes pictures, videos and maps that 
+                                        accommpany text describing the species and their management.</p>
                                         <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
                                         </div>
                                         </div>')
@@ -74,16 +80,20 @@ shinyUI(
                                  ),
                           column(4, HTML('<div class="thumbnail" id="two">
                                         <img src="" alt="">
-                                         <div class="caption" style="color: blue;">
-                                         <h3>Some Category</h3>
-                                         <p>Brief description of category.</p>
+                                         <div class="caption" style="color: white;">
+                                         <h3 style = "color: white;">Interactive Maps</h3>
+                                         <p>The maps availabile here allow for the interactive visualization of things like
+                                            coral locations, recommended and current HAPCs, and essential fish habitat
+                                            designations. Head here if you want to check out what the Council is up to where 
+                                            you are going fishing.</p>
                                          <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
                                          </div>
                                          </div>')),
+                          
                           column(4, HTML('<div class="thumbnail" id="three">
                                         <img src="" alt="">
-                                         <div class="caption" style="color: blue;">
-                                         <h3>Some Category</h3>
+                                         <div class="caption" style="color: white;">
+                                         <h3 style = "color: white;">Decision Tools</h3>
                                          <p>Brief description of category. 
                                           Words words words.</p>
                                          <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
@@ -94,7 +104,7 @@ shinyUI(
 
                         fluidRow(
                          
-                          column(12, h4(style="text-align: center;","Can't find what you're looking for? Click", HTML('<a href="">here</a>'), "for a list of all applications")
+                          column(12, h4(style="text-align: center; color: #005295;","Can't find what you're looking for? Click", HTML('<a href="">here</a>'), "for a list of all applications")
                           
 
                         )))

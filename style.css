@@ -71,3 +71,18 @@ a {
 
 navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #2bafa4;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+    text-align: left;
+    color: #22a4a1;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+    font-size: 37px;
+    text-align: left;
+    color: #2cb0a4;
+}
