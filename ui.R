@@ -45,25 +45,33 @@ shinyUI(
                         #                                 <p>we update the site, click "sign up".</p></div>
                         #                                 ')),
 
-                        jumbotron(header="The Portal",
-                                  content= HTML("<p style='margin-bottom: 5px;'>Welcome! 
-                                      <p>Click on one of th options below to explore.</p>
-                                  <p style='margin-bottom: 5px;'> If you want to recieve an email when
-                                we update the site, click 'sign up'.</p>"),
-                                  buttonLabel="Sign Up"),
+                        jumbotron(header="",content=HTML('<div class="hp-foreshore__inner">
+                                                          <h1 class="foreshore--hed">
+                                                         Welcome to the Portal. </h1>
+                                                         <h4 class="foreshore--subhed">Stay up-to-date on our progress</h4>
+                                                          <button type="button" class="btn btn-primary">Join</button></div>
+                                                           '),button=FALSE),
+                                  
+
+
+# content= HTML("<h2 style='margin-bottom: 5px;'><p>Welcome!</p> 
+#                                       <p>Click on one of the options below to explore.</p>
+#                                   <p style='margin-bottom: 5px;'> If you want to recieve an email when
+#                                 we update the site, click 'sign up'.</p>"),
+#                                   buttonLabel="Sign Up"),
                         # hr(),
                         # br(),
                         # br(),
                         # br(),
                         fluidRow(
                           column(2),
-                          column(8,
+                          column(8#,
 
-                                 HTML('<div class="panel" style="text-align:center; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-                                        font-size: 18px; color: #2eb2a4;">Explore
-                                      <br>
-                                      <img src="arrow2.png" alt="Mountain View" style="display: block; width:90px;height:20px;margin: auto;">
-                                      </div>')
+                                 # HTML('<div class="panel" style="text-align:center; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+                                 #        font-size: 18px; color: #2eb2a4;">Explore
+                                 #      <br>
+                                 #      <img src="arrow2.png" alt="Mountain View" style="display: block; width:90px;height:20px;margin: auto;">
+                                 #      </div>')
                                  )
                         ),
                         br(),
