@@ -36,12 +36,20 @@ shinyUI(
                         includeCSS("thumbnailCSS.css"),
                         includeCSS("jumbotronCSS.css"),
                         includeCSS("style.css"),
+                        
+                        # jumbotron(header="",content=HTML('<div class="panel" id = "two" style= 
+                        #                                   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+                        #                                   font-size: 18px; color: #2eb2a4;">The Data Portal
+                        #                                 <p> Welcome! Click on one of the options below to explore</p>
+                        #                                 <p style="margin-bottom: 5px;">If you want to recieve an email when</p>
+                        #                                 <p>we update the site, click "sign up".</p></div>
+                        #                                 ')),
 
-                        jumbotron(header="The Data Portal",
-                                  content= HTML("<p style='margin-bottom: 5px;'>Welcome! Click on one of the</p>
-                                  <p> options below to explore.</p>
-                                  <p style='margin-bottom: 5px;'> If you want to recieve an email when</p>
-                                  <p>we update the site, click 'sign up'.</p>"),
+                        jumbotron(header="The Portal",
+                                  content= HTML("<p style='margin-bottom: 5px;'>Welcome! 
+                                      <p>Click on one of th options below to explore.</p>
+                                  <p style='margin-bottom: 5px;'> If you want to recieve an email when
+                                we update the site, click 'sign up'.</p>"),
                                   buttonLabel="Sign Up"),
                         # hr(),
                         # br(),

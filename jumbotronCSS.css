@@ -28,3 +28,7 @@ border: 0px;
     border-bottom-style: solid !important;
 
 }
+
+div#two.panel{
+height: 90px;
+}
