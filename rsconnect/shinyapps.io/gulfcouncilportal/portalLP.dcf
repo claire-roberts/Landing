@@ -2,8 +2,8 @@ name: portalLP
 account: gulfcouncilportal
 server: shinyapps.io
 appId: 179958
-bundleId: 824781
+bundleId: 856771
 url: https://gulfcouncilportal.shinyapps.io/portalLP/
-when: 1494526927.53876
+when: 1496846083.34486
 asMultiple: FALSE
 asStatic: FALSE

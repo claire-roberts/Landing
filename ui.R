@@ -36,33 +36,9 @@ shinyUI(
                         includeCSS("thumbnailCSS.css"),
                         includeCSS("jumbotronCSS.css"),
                         includeCSS("style.css"),
-                        
-                        # jumbotron(header="",content=HTML('<div class="panel" id = "two" style= 
-                        #                                   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-                        #                                   font-size: 18px; color: #2eb2a4;">The Data Portal
-                        #                                 <p> Welcome! Click on one of the options below to explore</p>
-                        #                                 <p style="margin-bottom: 5px;">If you want to recieve an email when</p>
-                        #                                 <p>we update the site, click "sign up".</p></div>
-                        #                                 ')),
 
-                        jumbotron(header="",content=HTML('<div class="hp-foreshore__inner">
-                                                          <h1 class="foreshore--hed">
-                                                         Welcome to the Portal. </h1>
-                                                         <h4 class="foreshore--subhed">Stay up-to-date on our progress</h4>
-                                                          <button type="button" class="btn btn-primary">Join</button></div>
-                                                           '),button=FALSE),
-                                  
+                        jumbotron(header="",content=includeHTML('jumbotronPanelHTML.html'),button=FALSE),
 
-
-# content= HTML("<h2 style='margin-bottom: 5px;'><p>Welcome!</p> 
-#                                       <p>Click on one of the options below to explore.</p>
-#                                   <p style='margin-bottom: 5px;'> If you want to recieve an email when
-#                                 we update the site, click 'sign up'.</p>"),
-#                                   buttonLabel="Sign Up"),
-                        # hr(),
-                        # br(),
-                        # br(),
-                        # br(),
                         fluidRow(
                           column(2),
                           column(8#,
