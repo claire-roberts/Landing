@@ -32,6 +32,7 @@ body {
     color: #005295;
     font-size: 23px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    box-sizing: content-box;
 }
 
 
@@ -43,6 +44,7 @@ body {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #ffffff;
     background-color: #e4f1fc;
+    padding: 0px;
 }
 
 .container-fluid {
@@ -79,5 +81,9 @@ navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     font-weight: 200;
     text-align: left;
     color: #22a4a1;
+}
+
+.nav {
+  padding-top: 3px;
 }
 

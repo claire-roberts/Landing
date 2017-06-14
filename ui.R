@@ -20,9 +20,9 @@ shinyUI(
 
     list(tags$head(HTML('<link rel="icon", href="Rlogo.png",
                         type="image/png" />'))),
-    div(style="padding: 1px 0px; width: '100%'",
+    div(style="padding: 0px 0px; width: '100%'",
         titlePanel(
-          title="", windowTitle="Window Tab title"
+          title="", windowTitle="GMFMC Portal"
         )
         
     ),
