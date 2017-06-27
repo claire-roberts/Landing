@@ -2,7 +2,7 @@
 
 color: white;
 text-align: center;
-height:80vh;
+height:65vh;
 width: 100%;
 border: 0px;
 
@@ -33,11 +33,11 @@ div#two.panel{
 height: 90px;
 }
 
-.hp-foreshore__inner {
+/*.hp-foreshore__inner {
     padding: 1rem 0;
     background-color: transparent;
     background-image: linear-gradient(90deg,rgba(0, 82, 149,0) 0,rgba(0, 82, 149,.5) 50%,rgba(0, 82, 149,0));
-}
+}*/
 
 
 .foreshore--hed {
@@ -62,6 +62,13 @@ height: 90px;
     font-size: 15px;
     text-shadow: 2px 0 1.6px rgba(0,0,0,.42);
     margin-top: 0;
+}
+
+.image-inset {
+    background-color: transparent;
+    background-image: linear-gradient(90deg,rgba(0, 82, 149,0) 0,rgba(0, 82, 149,.5) 50%,rgba(0, 82, 149,0));	
+	margin-top: -20px;
+    padding-bottom: 1rem;
 }
 
 .foreshore--subhed {
@@ -135,4 +142,9 @@ i::before{
 
 #mce-EMAIL {
   border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.58);
+}
+
+.h1 {
+	margin-top: 10px;
 }

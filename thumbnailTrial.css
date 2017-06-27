@@ -1,25 +1,15 @@
-#one.thumbnail {
-background: url('Echinus_2.jpg') no-repeat left center;
+/* CSS used here will be applied after bootstrap.css */
+
+body {
+  padding-top: 50px;
 }
-
-
-
-#two.thumbnail {
-background: url('boatSunset-SeaGrant.jpg') no-repeat center bottom;
-}
-
-
-
-#three.thumbnail {
-background: url('iStockLobster.jpg') no-repeat center center;
-}
-
+ 
 .thumbnail {
     position:relative;
     overflow:hidden;
 }
  
-#one.caption {
+.caption {
     position:absolute;
     top:0;
     right:0;

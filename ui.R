@@ -50,47 +50,108 @@ shinyUI(
                                  #      </div>')
                                  )
                         ),
-                        br(),
-                        br(),
-                        br(),
+                     
+                       
 
                         fluidRow(
+                                 # tags$head(
+                                 #   tags$script(src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"),
+                                 #   tags$script(src = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
+                                 # ),
+                                 includeScript('tooltip2.js'),
                           column(4,
+                                 HTML('<div class="thumbnail" id="one" style="height:50vh;">
+                                  
+                                      <div class="caption" id="one" data-toggle="tooltip">
+                                      <h4 class="" style="color: white;"></h4>
+                                      
+                                      <p class="" style="color: white; font-size: 18px;">Description of learning modules here</p>
+                                      </br>
+                                      </br>
+                                      <p class="">
+                                      <ul>
+                                        <li><a href="http://portal.gulfcouncil.org/GoliathGrouper.html" style="color: white; font-size:16px;">Goliath Grouper</a></li>
+                                        <li><a href="http://portal.gulfcouncil.org/Deepwaterandmanagement.html" style="color: white; font-size:16px;">Deep-water Corals</a></li>
+                                        <li><a href="http://portal.gulfcouncil.org/CoralReefManagement.html" style="color: white; font-size:16px;">Coral Reef Management</a></li>
+                                      </ul>
+                                      </p>
+                                      </div>
+                                      
+                                      <h2 class="" style="text-align: center; margin-top: 10vh; color: white;">Learning Modules</h2>
+                                      
+                                      </div>
+                                      ')
 
-                                 HTML('<div class="thumbnail" id="one">
-                                        <img src="" alt="">
-                                        <div class="caption" style="color: white;">
-                                        <h3 style = "color: white;">Learning Modules</h3>
-                                        <p>These provide an indepth look at different species
-                                         managed by the Gulf Council and includes pictures, videos and maps that 
-                                        accommpany text describing the species and their management.</p>
-                                        <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
-                                        </div>
-                                        </div>')
+                                 # HTML('<div class="thumbnail" id="one">
+                                 #        <img src="" alt="">
+                                 #        <div class="caption" style="color: white;">
+                                 #        <h3 style = "color: white;">Learning Modules</h3>
+                                 #        <p>These provide an indepth look at different species
+                                 #         managed by the Gulf Council and includes pictures, videos and maps that 
+                                 #        accommpany text describing the species and their management.</p>
+                                 #        <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
+                                 #        </div>
+                                 #        </div>')
 
 
                                  ),
-                          column(4, HTML('<div class="thumbnail" id="two">
-                                        <img src="" alt="">
-                                         <div class="caption" style="color: white;">
-                                         <h3 style = "color: white;">Interactive Maps</h3>
-                                         <p>The maps availabile here allow for the interactive visualization of things like
-                                            coral locations, recommended and current HAPCs, and essential fish habitat
-                                            designations. Head here if you want to check out what the Council is up to where 
-                                            you are going fishing.</p>
-                                         <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
-                                         </div>
-                                         </div>')),
+                          column(4,
+                                 HTML('<div class="thumbnail">
+                                      <a href="#" class="">
+                                      <div class="caption" id="one">
+                                      <h4 class="">Interactive Maps</h4>
+                                      
+                                      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                      </p>
+                                      </div>
+                                      <img src="boatSunset-SeaGrant.jpg" alt="..." class="">
+                                      </a>
+                                      </div>
+                                      ')
+
+                                      # HTML('<div class="thumbnail" id="two">
+                                      #   <img src="" alt="">
+                                      #   <div class="caption" id="two" style="color: white;">
+                                      #    <h3 style = "color: white;">Interactive Maps</h3>
+                                      #    <p>The maps availabile here allow for the interactive visualization of things like
+                                      #       coral locations, recommended and current HAPCs, and essential fish habitat
+                                      #       designations. Head here if you want to check out what the Council is up to where 
+                                      #       you are going fishing.</p>
+                                      #    <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
+                                      #    </div> 
+                                      #    </div>')
+                                 ),
                           
-                          column(4, HTML('<div class="thumbnail" id="three">
-                                        <img src="" alt="">
-                                         <div class="caption" style="color: white;">
-                                         <h3 style = "color: white;">Decision Tools</h3>
-                                         <p>Brief description of category. 
-                                          Words words words.</p>
-                                         <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
-                                         </div>
-                                         </div>'))
+                          column(4, 
+                                 HTML('<div class="thumbnail">
+                                      <a href="#" class="">
+                                      <div class="caption" id="one">
+                                      <h4 class="">Decision Tools</h4>
+                                      
+                                      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                      </p>
+                                      </div>
+                                      <img src="iStockLobster.jpg" alt="..." class="">
+                                      </a>
+                                      </div>
+                                      ')
+
+
+
+
+
+                                        # HTML('<div class="thumbnail" id="three">
+                                        # <img src="" alt="">
+                                        #  <div class="caption" id = "three" style="color: white;">
+                                        #  <h3 style = "color: white;">Decision Tools</h3>
+                                        #  <p>Brief description of category. 
+                                        #   Words words words.</p>
+                                        #   </br>
+                                        #   </br>
+                                        #  <p><a href="http://getbootstrap.com/" class="btn btn-primary" role="button">Click me</a> </p>
+                                        #  </div>
+                                        #  </div>')
+                                 )
 
                         ),
 
