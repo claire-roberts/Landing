@@ -60,7 +60,11 @@ shinyUI(
                                  # ),
                                  includeScript('tooltip2.js'),
                           column(4,
+<<<<<<< HEAD
                                  HTML('<div class="thumbnail" id="one" style="height:40vh;">
+=======
+                                 HTML('<div class="thumbnail" id="one" style="height:50vh;">
+>>>>>>> c5c78a3418f6089c3acc48b88f68b0e76f2b0f6b
                                   
                                       <div class="caption" id="one" data-toggle="tooltip">
                                       <h4 class="" style="color: white;"></h4>
@@ -96,6 +100,7 @@ shinyUI(
 
                                  ),
                           column(4,
+<<<<<<< HEAD
                                  HTML('<div class="thumbnail" id="two" style="height:40vh;">
                                      
                                       <div class="caption" id="one">
@@ -116,6 +121,18 @@ shinyUI(
                                       </div>
                                       <h2 class="" style="text-align: center; margin-top: 10vh; color: white;">Interactive Maps</h2>
                                       
+=======
+                                 HTML('<div class="thumbnail">
+                                      <a href="#" class="">
+                                      <div class="caption" id="one">
+                                      <h4 class="">Interactive Maps</h4>
+                                      
+                                      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                      </p>
+                                      </div>
+                                      <img src="boatSunset-SeaGrant.jpg" alt="..." class="">
+                                      </a>
+>>>>>>> c5c78a3418f6089c3acc48b88f68b0e76f2b0f6b
                                       </div>
                                       ')
 
@@ -133,6 +150,7 @@ shinyUI(
                                  ),
                           
                           column(4, 
+<<<<<<< HEAD
                                  HTML('<div class="thumbnail" id="three" style="height:40vh;">
                                       
                                       <div class="caption" id="one">
@@ -152,6 +170,18 @@ shinyUI(
                                       </div>
                                        <h2 class="" style="text-align: center; margin-top: 10vh; color: white;">Decision Tools</h2>
                                      
+=======
+                                 HTML('<div class="thumbnail">
+                                      <a href="#" class="">
+                                      <div class="caption" id="one">
+                                      <h4 class="">Decision Tools</h4>
+                                      
+                                      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                      </p>
+                                      </div>
+                                      <img src="iStockLobster.jpg" alt="..." class="">
+                                      </a>
+>>>>>>> c5c78a3418f6089c3acc48b88f68b0e76f2b0f6b
                                       </div>
                                       ')
 
@@ -162,7 +192,11 @@ shinyUI(
                                         # HTML('<div class="thumbnail" id="three">
                                         # <img src="" alt="">
                                         #  <div class="caption" id = "three" style="color: white;">
+<<<<<<< HEAD
                                         #  <h3 style = "color: white;"></h3>
+=======
+                                        #  <h3 style = "color: white;">Decision Tools</h3>
+>>>>>>> c5c78a3418f6089c3acc48b88f68b0e76f2b0f6b
                                         #  <p>Brief description of category. 
                                         #   Words words words.</p>
                                         #   </br>

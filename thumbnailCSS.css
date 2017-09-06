@@ -23,7 +23,11 @@ background: url('iStockLobster.jpg') no-repeat center center;
     position:absolute;
     top:0;
     right:0;
+<<<<<<< HEAD
     background:rgba(90, 90, 90, 1.0);
+=======
+    background:rgba(90, 90, 90, 0.75);
+>>>>>>> c5c78a3418f6089c3acc48b88f68b0e76f2b0f6b
     width:100%;
     height:100%;
     padding:2%;
